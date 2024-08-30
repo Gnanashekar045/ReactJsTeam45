@@ -1,1 +1,1 @@
-mounting. contructer componentsdidmount
+props are short for properties a way pass data from parent component to child component. props are ready only. meaning we connot modify directly. allowing them to be dynamic and reusable by enabling them by receiving different inputs
