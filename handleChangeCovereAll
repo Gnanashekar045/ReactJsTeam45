@@ -17,4 +17,4 @@ const handleChange = (e) => {
         setUser({ ...User, [name]: value }); // Handle all other input types (radio, text, etc.)
     }
 };
-//it covers
+//it covers all 
