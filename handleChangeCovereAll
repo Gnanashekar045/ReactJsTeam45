@@ -1,0 +1,19 @@
+const handleChange = (e) => {
+    const { name, value, type, checked, files, options } = e.target;
+
+    if (type === "checkbox") {
+        const newHobbies = checked
+            ? [...User.Hobbies, value] // Add hobby if checked
+            : User.Hobbies.filter(hobby => hobby !== value); // Remove if unchecked
+        setUser({ ...User, Hobbies: newHobbies });
+    } else if (type === "file") {
+        setUser({ ...User, [name]: files[0] }); // Handle file uploads
+    } else if (type === "select-multiple") {
+        const selectedValues = Array.from(options)
+            .filter(option => option.selected)
+            .map(option => option.value); // Handle multi-select
+        setUser({ ...User, [name]: selectedValues });
+    } else {
+        setUser({ ...User, [name]: value }); // Handle all other input types (radio, text, etc.)
+    }
+};
