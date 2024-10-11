@@ -12,7 +12,7 @@ function dateDifferenceInDays(date1, date2) {
   return differenceDays;
 }
 
-// Example usage for two:
+// Example usage for two difference:
 const date1 = '2024-10-01';
 const date2 = '2024-10-11';
 console.log(dateDifferenceInDays(date1, date2)); // Output: 10
