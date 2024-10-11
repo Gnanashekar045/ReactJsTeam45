@@ -1,0 +1,18 @@
+function dateDifferenceInDays(date1, date2) {
+  // Convert both dates to milliseconds
+  const date1Ms = new Date(date1).getTime();
+  const date2Ms = new Date(date2).getTime();
+  
+  // Calculate the difference in milliseconds
+  const differenceMs = Math.abs(date1Ms - date2Ms);
+  
+  // Convert back to days and return
+  const differenceDays = Math.ceil(differenceMs / (1000 * 60 * 60 * 24));
+  
+  return differenceDays;
+}
+
+// Example usage:
+const date1 = '2024-10-01';
+const date2 = '2024-10-11';
+console.log(dateDifferenceInDays(date1, date2)); // Output: 10
