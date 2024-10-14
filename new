@@ -17,3 +17,13 @@ function factorial(n) {
 }
 
 console.log(factorial(5)); // Output: 120
+
+let name = "Alice";
+const age = 30;
+let isStudent = true;
+let hobbies = ["reading", "painting", "coding"];
+let person = {
+  firstName: "Bob",
+  lastName: "Smith",
+  age: 25
+};
