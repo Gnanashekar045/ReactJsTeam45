@@ -1,6 +1,6 @@
 const fruits = ["apple", "banana", "orange"];
 
-// Add an item
+// Add an
 fruits.push("grape");
 
 // Remove an item
