@@ -1,0 +1,13 @@
+const fruits = ["apple", "banana", "orange"];
+
+// Add an item
+fruits.push("grape");
+
+// Remove an item
+fruits.pop(); // removes "grape"
+
+// Find an item
+const hasBanana = fruits.includes("banana"); // true
+
+console.log(fruits);       // Output: ["apple", "banana", "orange"]
+console.log(hasBanana);    // Output: true
