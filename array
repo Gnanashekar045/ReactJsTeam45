@@ -6,7 +6,7 @@ fruits.push("grape");
 // Remove item
 fruits.pop(); 
 
-// Find an item
+// Find from item
 const hasBanana = fruits.includes("banana"); // true
 
 console.log(fruits);       // Output: ["apple", "banana", "orange"]
