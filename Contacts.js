@@ -1,5 +1,7 @@
 import React from 'react';
 
+//*info*//
+
 const Contact = () => {
   return (
     <div>
