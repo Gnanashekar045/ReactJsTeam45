@@ -10,4 +10,4 @@ fruits.pop();
 const hasBanana = fruits.includes("banana");
 
 console.log(fruits);       // Output: ["apple", "banana", "orange"]
-console.log(hasBanana);    // 
+console.log(hasBanana);    
