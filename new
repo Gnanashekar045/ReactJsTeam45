@@ -20,5 +20,4 @@ console.log(factorial(5)); // Output: 12
 
 let hobbies = ["reading", "painting", "coding"];
 let person = {
-  age: 25
 };
