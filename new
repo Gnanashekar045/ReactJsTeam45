@@ -18,7 +18,6 @@ function factorial(n) {
 
 console.log(factorial(5)); // Output: 12
 
-let name = "Alice";
 const age = 30;
 let isStudent = true;
 let hobbies = ["reading", "painting", "coding"];
