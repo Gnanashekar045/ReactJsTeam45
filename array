@@ -3,7 +3,7 @@ const fruits = ["apple", "banana", "orange" ];
 
 fruits.push("grape");
 
-// Remove from 
+// Remove 
 fruits.pop(); 
 
 // Find from item
