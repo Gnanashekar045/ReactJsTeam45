@@ -1,9 +1,9 @@
-const fruits = ["apple", "banana", "orange"];
+const fruits = ["apple", "banana", "orange" ];
 
 
 fruits.push("grape");
 
-// Remove from item 
+// Remove from 
 fruits.pop(); 
 
 // Find from item
