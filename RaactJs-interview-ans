@@ -3,7 +3,7 @@
 
    Answer: React is a JavaScript library for building user interfaces, developed by Facebook. It allows developers to create large web applications that can update and render efficiently in response to data changes. React is based on the concept of components, which are reusable pieces of UI.
 
-2. What are components 
+2. What are
 
    Answer: Components are the building blocks of a React application. They encapsulate a part of the user interface and are reusable. There are two types of components in React: class components and functional components. Class components are ES6 classes that extend from `React.Component`, whereas functional components are JavaScript functions that can use hooks to manage state and side effects.
 
