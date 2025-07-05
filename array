@@ -1,4 +1,4 @@
-const fruits = ["apple", "banana", "orange", mango, graps ];
+const fruits = ["apple", "banana", "orange", mango, graps, banana];
 
 
 fruits.push("grape");
