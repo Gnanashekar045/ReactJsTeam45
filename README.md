@@ -15,7 +15,7 @@
             <button onclick="appendToDisplay('/')">/</button>
             <button onclick="appendToDisplay('*')">*</button>
 
-            <button onclick="appendToDisplay('7')">7</button>
+            
             <button onclick="appendToDisplay('8')">8</button>
             <button onclick="appendToDisplay('9')">9</button>
             <button onclick="appendToDisplay('-')">-</button>
